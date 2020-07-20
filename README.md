@@ -22,4 +22,14 @@
 ##  合并分支，切换回master分支后，使用git merge dev 将dev与master分支合并
 ##  git branch -d dev 删除dev分支
 ##  git log --graph 查看分支合并图
-##  git stash 
+##  git stash 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+##  使用git stash list查看储存的工作，使用git stash apply 或者git stash pop区别是，后者list中会删除，储存多个的时候git stash apply stash@{0}命令
+##  cherry-pick id把某个改动复制到当前分支
+##  丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
+##  git remote查看远程仓库信息 git remove -v详细信息
+
+#  因此，多人协作的工作模式通常是这样：
+## 首先，可以试图用git push origin <branch-name>推送自己的修改；
+## 如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+## 如果合并有冲突，则解决冲突，并在本地提交；
+## 没有冲突或者解决掉冲突后，再用git push origin <branch-name>推送就能成功！
