@@ -5,3 +5,5 @@
 ##  使用命令git commit -m <message>，完成。 这里message可以让别人查看到改动
 ##  git status查看状态
 ##  git diff查看修改
+##  git log 查看修改日志
+##  HEAD表示当前版本，HEAD^表示上一个版本 HEAD^^上上版本 HEAD~n前n个版本
