@@ -9,3 +9,5 @@
 ##  HEAD表示当前版本，HEAD^表示上一个版本 HEAD^^上上版本 HEAD~n前n个版本
 ##  git reset --hard 版本 表示修改回退，退回想取消，则需要使用git reset --hard id
 ##  git reflog  记录每一次使用git的命令，方便回滚
+##  通过git add才能方便把修改存入咱暂存区
+##  git diff HEAD --README.md 查看工作区与版本库的区别
