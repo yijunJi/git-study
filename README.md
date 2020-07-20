@@ -22,3 +22,4 @@
 ##  合并分支，切换回master分支后，使用git merge dev 将dev与master分支合并
 ##  git branch -d dev 删除dev分支
 ##  git log --graph 查看分支合并图
+##  git stash 
