@@ -11,3 +11,5 @@
 ##  git reflog  记录每一次使用git的命令，方便回滚
 ##  通过git add才能方便把修改存入咱暂存区
 ##  git diff HEAD --README.md 查看工作区与版本库的区别
+##  git checkout -- file可以将文件回到最近一次git add 或git commit状态
+##  命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区：
