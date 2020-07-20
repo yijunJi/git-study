@@ -38,3 +38,6 @@
 ## 给之前版本打标签git tag 标签名 id 
 ## git show <tagname>查看标签信息
 ## $ git tag -a v0.1 -m "version 0.1 released" 1094adb 标签添加说明-a
+## git push origin <tagname>可以把某个标签commit推送至origin 
+## git push origin --tags 一次推送所有的commit的tag
+## 已经推送至远程的tag删除，先本地git tag -d <tagname> 在远程git push origin :refs/tags/<tagname>
