@@ -33,3 +33,8 @@
 ## 如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
 ## 如果合并有冲突，则解决冲突，并在本地提交；
 ## 没有冲突或者解决掉冲突后，再用git push origin <branch-name>推送就能成功！
+
+## git tag 标签名 当前版本打标签，回滚或者其他操作室方便查找使用
+## 给之前版本打标签git tag 标签名 id 
+## git show <tagname>查看标签信息
+## $ git tag -a v0.1 -m "version 0.1 released" 1094adb 标签添加说明-a
