@@ -8,4 +8,4 @@
 ##  git log 查看修改日志
 ##  HEAD表示当前版本，HEAD^表示上一个版本 HEAD^^上上版本 HEAD~n前n个版本
 ##  git reset --hard 版本 表示修改回退，退回想取消，则需要使用git reset --hard id
-##  git reflog  记录每一次使用git的命令
+##  git reflog  记录每一次使用git的命令，方便回滚
